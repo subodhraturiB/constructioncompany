@@ -454,8 +454,8 @@ li {
   }
 }
 .section-padding30 {
-  padding-top: 183px;
-  padding-bottom: 170px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding30 {
@@ -488,8 +488,8 @@ li {
   }
 }
 .testimonial-padding {
-  padding-top: 157px;
-  padding-bottom: 157px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .testimonial-padding {
@@ -4157,4 +4157,156 @@ del {
 }
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+ .counter-section {
+            background: #00235B;
+            border-radius: 20px;
+            padding: 20px 20px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 100px;
+        }
+
+        .counter-box {
+            text-align: center;
+            padding: 10px 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .counter-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .counter-icon {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .counter-number {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: white;
+            margin: 15px 0;
+            line-height: 1;
+            
+        }
+
+        .counter-label {
+            font-size: 1.1rem;
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #2d3748;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #718096;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .counter-number {
+                font-size: 2.5rem;
+            }
+            
+            .counter-icon {
+                font-size: 2.5rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+        }
+
+
+
+/* Equal height blog images */
+.blog_item_img img {
+  width: 100%;
+  height: 450px;        /* Adjust as needed: 200px, 300px, etc. */
+  object-fit: cover;
+  border-radius: 0;     /* Matches 'rounded-0' class */
+  display: block;
+}
+
+.cat-list a p + p {
+  margin-left: 10px !important;  /* Force left spacing */
+}
+
+.post_item img {
+  width: 80px;           /* or 100px if you want larger thumbnails */
+  height: 80px;          /* keeps images square */
+  object-fit: cover;     /* crops instead of stretching */
+  border-radius: 6px;    /* optional: adds rounded corners */
+}
+
+.instagram_row img {
+  width: 90px;           /* or 100px if you want larger thumbnails */
+  height: 90px;          /* keeps images square */
+  object-fit: cover;     /* crops instead of stretching */
+      /* optional: adds rounded corners */
+}
+
+.thumb img {
+  width: 70px;           /* or 100px if you want larger thumbnails */
+  height: 70px;          /* keeps images square */
+  object-fit: cover;     /* crops instead of stretching */
+  border-radius: 6px;    /* optional: adds rounded corners */
+}
+
+.details-img img {
+  height: 600px;        /* Adjust as needed: 200px, 300px, etc. */
+  object-fit: cover;
+  border-radius: 0;     /* Matches 'rounded-0' class */
+  display: block;
+  margin-top:20px;
+}
+
+.single-services.section-padding2 {
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+}
+
+.cta-area{
+  background-color: #fff;
+  margin-bottom: 120px;
+}
+
+.cta-heading{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Teko", sans-serif;
+ 
+}
+
+.contact-section{
+  padding-top: 100px !important;
+  padding-bottom: 80px !important;
 }
