@@ -4293,6 +4293,11 @@ del {
   padding-bottom: 20px !important;
 }
 
+.how-we-work{
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
 .cta-area{
   background-color: #fff;
   margin-bottom: 120px;
@@ -4309,4 +4314,33 @@ del {
 .contact-section{
   padding-top: 100px !important;
   padding-bottom: 80px !important;
+}
+
+.services-area1 {
+  padding-bottom: 90px !important;
+}
+
+.project-area{
+  padding-bottom: 90px !important;
+}
+
+.latest-news-area{
+  padding-bottom: 90px !important;
+}
+
+ .about-support{
+  padding-top: 110px !important;
+  padding-bottom: 110px !important;
+}
+
+.footer-area.footer-padding {
+  padding-bottom: 60px !important; /* adjust as needed */
+}
+
+.services-area1{
+  padding-bottom: 60px !important;
+}
+
+.header-info-left ul li:nth-child(3) {
+  display: none !important;
 }
